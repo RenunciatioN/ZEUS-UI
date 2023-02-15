@@ -1,0 +1,41 @@
+.nav { 
+	padding: 18px 0;
+	align-items: center;
+	height: 76px;
+
+	border-bottom: 1px solid #F8E0FB;
+
+
+	&__row { 
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		
+	}
+
+	&__list { 
+		display: flex;
+		column-gap: 30px;
+	}
+
+	&__link { 
+		font-weight: 500;
+		font-size: 16px;
+		line-height: 1.25;
+		font-family: 'Space Grotesk', sans-serif;
+		color: #000000;
+		opacity: 0.5;
+	
+		&--dropdown {
+			display: flex;
+			align-items: center;
+			column-gap: 6px;
+		}
+
+		&:hover {
+			color: #3182CE;
+			opacity: 1;
+		}
+	}
+}
+

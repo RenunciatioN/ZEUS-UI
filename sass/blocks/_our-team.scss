@@ -1,0 +1,48 @@
+.our-team { 
+	padding: 80px 0;
+	h2 {
+		margin-bottom: 24px;
+	}
+	p {
+		max-width: 760px;
+		margin: 0 auto;
+
+	}
+}
+
+.our-team__blocks { 
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-top: 80px;
+	flex-wrap: wrap;
+	gap: 30px 40px;
+	
+
+}
+.our-team__block { 
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 170px;
+	img {
+		border-radius: 50%;
+		margin-bottom: 12px;
+	}
+}
+.our-team__name { 
+	font-weight: 700;
+	font-size: 24px;
+	line-height: 1.333;
+	color: #000000;
+	font-family: $font-Space;
+	margin-bottom: 12px;
+}
+.our-team__preff { 
+	font-weight: 300;
+	font-size: 14px;
+	line-height: 1.42;
+	color: #532C59;
+	font-family: $font-Space;
+	text-align: center;
+}

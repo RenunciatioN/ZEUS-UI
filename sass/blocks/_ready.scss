@@ -1,0 +1,51 @@
+.ready { 
+	padding: 80px 0 70px 0;
+	&__block { 
+		padding: 117px 0;
+
+		background: #FCFAFF;
+		border: 1px solid #D6BCFA;
+		box-shadow: inset 0px 0px 50px #F8E0FA;
+		border-radius: 60px;
+
+		background-image: url('./../../img/bacground-ready.png');
+		background-repeat: no-repeat;
+		background-position: top;
+		background-size: contain;
+
+
+		.title-2 {
+			margin-bottom: 16px;
+		}
+		.title-text {
+			max-width: 710px;
+			margin: 0 auto;
+			margin-bottom: 32px;
+		}
+	}
+	&__block-btn {
+		display: flex;
+		justify-content: center;
+		
+	}
+	&__btn { 
+
+		span {
+			padding: 16px 25px;
+			font-weight: 700;
+			font-size: 16px;
+			line-height: 62px;
+			color: #FFFFFF;
+			font-family: $font-Syne;
+		}
+
+		background: #532C59;
+		border-radius: 15px;
+		transition: 0.3s ease-in-out;
+
+		&:hover {
+			background: #000000;
+		}
+	}
+}
+

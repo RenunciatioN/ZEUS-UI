@@ -1,0 +1,143 @@
+
+@media (max-width:1130px) {
+	.header__logos {
+		justify-content: center;
+		grid-template-columns: repeat(3, 135px);
+		
+	}
+	.ready__block {
+		padding: 30px 0;
+		
+		.title-2 {
+			max-width: 388px;
+			margin: 0 auto;
+			font-size: 36px;
+		}
+		.title-text {
+			max-width: 388px;
+			font-size: 12px;
+
+		}
+		.ready__btn {
+			padding: 12px;
+			span {
+				line-height: 20px;
+			}
+			
+		}
+	}
+	.collections__cards {
+		padding-left: 15px;
+		padding-right: 15px;
+	}
+}
+
+@media (max-width:900px) {
+	.nav__list {
+		display: none;
+	}
+	.burger-wrapper {
+		display: block;
+		order: 1;
+		
+	}
+	.nav__logo-link {
+		position: absolute;
+		left: 50%;
+		transform: translateX(-76px);
+	}
+	.our-team__blocks {
+		justify-content: space-around;
+	}
+
+	.collections__name {
+		font-size: 24px;
+		line-height: 32px;
+	}
+	.collections__cards {
+		grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+	}
+}
+@media (max-width:834px) {
+	.header {
+		&__row {
+			padding-left: 15px;
+			padding-right: 15px;
+		}
+
+		&__title {
+			font-size: 72px;
+		}
+		
+	}
+	.title-2 {
+		font-size: 40px;
+	}
+	.provide__list {
+		justify-content: center;
+	}
+}
+	
+@media (max-width:500px) {
+	.header__logos {
+		display: none;
+	}
+	.collections__card {
+		max-width: 360px;
+	}
+	.questions__wrapper {
+		flex-direction: column;
+		justify-content: center;
+
+		.questions__block-title {
+			margin-bottom: 20px;
+		}
+		.questions__name {
+			font-size: 16px;
+		}
+		.questions__item {
+			margin-bottom: 16px;
+			padding: 10px 60px 10px 10px;
+
+			&:last-child {
+				margin-bottom: 24px;
+			}
+
+			img {
+				top: 20px;
+			}
+		}
+	}
+}
+
+
+@media (max-width:400px) {
+	.header {
+
+		&__title {
+			font-size: 36px;
+		}
+		
+	}
+	.title-2 {
+		font-size: 36px;
+	}
+	.collections__cards {
+		padding-bottom: 0;
+	}
+	.provide  {
+		padding-bottom: 0;
+	}
+	.questions  {
+		padding-top: 20px;
+	}
+	.ready {
+		padding-bottom: 0;
+	}
+	.testimonials__blur {
+		display: block;
+	}
+	.testimonials__card-name i {
+		opacity: 1;
+	}
+}

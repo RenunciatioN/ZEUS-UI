@@ -1,0 +1,87 @@
+
+
+.header {
+
+
+	&__row {
+		max-width: 1440px;
+		margin: 0 auto;
+		padding-top: 117px;
+		position: relative;
+		text-align: center;
+
+		background-image: url('./../../img/header/header-groop-img.png');
+		background-repeat: no-repeat;
+		background-position: center top;
+	}
+
+	&__title { 
+		margin-bottom: 32px;
+
+		font-weight: 700;
+		font-size: 80px;
+		line-height: 1.2;
+		color: #000000;
+		text-shadow: -5px 5px 0px #FFFFFF;
+
+		font-family: $font-Syne;
+	}
+	&__text { 
+		max-width: 760px;
+		margin: 0 auto;
+		margin-bottom: 32px;
+
+		font-weight: 400;
+		font-size: 16px;
+		line-height: 1.5;
+		font-family: $font-Space;
+	}
+	&__link { 
+		height: 62px;
+		padding: 16px 30px;
+
+		font-weight: 700;
+		font-size: 16px;
+		line-height: 62px;
+		color: #FFFFFF;
+		font-family: $font-Syne;
+
+		background: #532C59;
+		border-radius: 15px;
+		transition: 0.3s ease-in-out;
+
+		&:hover {
+			background: #6d3475;
+		}
+		
+	}
+
+	&__blur {
+		position: absolute;
+		top: 0;
+		left: 0;
+		height: 100%;
+		width: 100%;
+		background: radial-gradient(50% 50% at 50% 50%, #E36CE6 0%, rgba(255, 255, 255, 0) 100%);
+		opacity: 0.4;
+		filter: blur(116px);
+		z-index: -1;
+	}
+
+	&__logos {
+		display: grid;
+		grid-template-columns: repeat(6, 1fr);
+		grid-auto-rows: 1fr 1fr;
+		align-items: center;
+		gap: 40px;
+
+		max-width: 1100px;
+		margin: 0 auto;
+		height: 120px;
+		margin-top: 100px;
+		
+		img {
+			justify-self: center;
+		}
+	}
+}

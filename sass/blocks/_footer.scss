@@ -1,0 +1,35 @@
+.footer { 
+	padding: 80px 0 40px 0;
+
+	.nav__row { 
+		position: relative;
+		padding-bottom: 40px;
+
+		border-bottom: 1px solid #CCD5DF;
+	}
+
+	&__logo { 
+		position: absolute;
+		top: -10px;
+		left: 50%;
+		transform: translateX(-76px);
+		
+	}
+}
+.nav__footer { }
+.container { }
+
+.nav__list { }
+.nav__item { }
+.nav__link { }
+.nav__logo { }
+.copyraiting { 
+	margin-top: 40px;
+	text-align: center;
+	font-weight: 300;
+	font-size: 14px;
+	line-height: 20px;
+	color: #000000;
+	opacity: 0.5;
+	font-family: $font-Space;
+}
